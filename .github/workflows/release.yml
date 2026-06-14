@@ -1,3 +1,4 @@
+# Manual and tag-triggered release workflow
 name: Release
 
 on:
