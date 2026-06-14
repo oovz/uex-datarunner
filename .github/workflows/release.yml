@@ -48,7 +48,7 @@ jobs:
         run: pnpm test:unit
 
       - name: Run Rust unit tests
-        run: cargo test --manifest-path src-tauri/Cargo.toml -- --skip live_ocr::
+        run: "cargo test --manifest-path src-tauri/Cargo.toml -- --skip live_ocr::"
 
       - name: Build and release Tauri app
         uses: tauri-apps/tauri-action@v2
