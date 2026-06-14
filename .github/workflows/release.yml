@@ -58,5 +58,6 @@ jobs:
           tagName: v__VERSION__
           releaseName: "UEX Datarunner v__VERSION__"
           releaseBody: "See the assets below to download the latest version of UEX Datarunner."
-          releaseDraft: true
+          releaseDraft: false
           prerelease: false
+          generateReleaseNotes: true
