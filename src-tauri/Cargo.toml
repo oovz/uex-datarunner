@@ -1,0 +1,29 @@
+[package]
+name = "uex-datarunner"
+version = "0.1.0"
+description = "Windows desktop client for UEX datarunner commodity submissions"
+authors = ["UEX Datarunner"]
+edition = "2021"
+
+[lib]
+name = "uex_datarunner"
+crate-type = ["staticlib", "cdylib", "rlib"]
+
+[build-dependencies]
+tauri-build = { version = "2", features = [] }
+
+[dependencies]
+base64 = "0.22"
+chrono = { version = "0.4", default-features = false, features = ["clock"] }
+foundry-local-sdk = "1.2"
+image = { version = "0.25", default-features = false, features = ["png", "jpeg", "webp", "bmp"] }
+log = "0.4"
+reqwest = { version = "0.12", default-features = false, features = ["json", "rustls-tls", "blocking"] }
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+tauri = { version = "2", features = ["tray-icon"] }
+tauri-plugin-dialog = "2"
+tauri-plugin-log = "2"
+thiserror = "2"
+tokio = { version = "1", features = ["macros", "time"] }
+windows = { version = "0.58", features = ["Win32_Foundation", "Win32_Graphics_Dxgi"] }

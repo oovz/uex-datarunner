@@ -1,0 +1,11 @@
+# Automatically generated - DO NOT EDIT!
+
+[[permission]]
+identifier = "allow-check-uex-account"
+description = "Enables the check_uex_account command without any pre-configured scope."
+commands.allow = ["check_uex_account"]
+
+[[permission]]
+identifier = "deny-check-uex-account"
+description = "Denies the check_uex_account command without any pre-configured scope."
+commands.deny = ["check_uex_account"]

@@ -1,0 +1,11 @@
+# Automatically generated - DO NOT EDIT!
+
+[[permission]]
+identifier = "allow-load-working-set"
+description = "Enables the load_working_set command without any pre-configured scope."
+commands.allow = ["load_working_set"]
+
+[[permission]]
+identifier = "deny-load-working-set"
+description = "Denies the load_working_set command without any pre-configured scope."
+commands.deny = ["load_working_set"]

@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img" aria-labelledby="title">
+  <title id="title">UEX Datarunner icon</title>
+  <defs>
+    <linearGradient id="surface" x1="42" y1="30" x2="210" y2="226" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#14313a"/>
+      <stop offset="0.52" stop-color="#17212f"/>
+      <stop offset="1" stop-color="#241934"/>
+    </linearGradient>
+    <linearGradient id="scan" x1="72" y1="70" x2="184" y2="186" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#72f0c8"/>
+      <stop offset="1" stop-color="#47a7ff"/>
+    </linearGradient>
+  </defs>
+  <rect width="256" height="256" rx="54" fill="#0e1117"/>
+  <rect x="19" y="19" width="218" height="218" rx="44" fill="url(#surface)" stroke="#2f4658" stroke-width="6"/>
+  <path d="M68 73v-18h38M150 55h38v38M188 150v38h-38M106 188H68v-38" fill="none" stroke="url(#scan)" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M75 137c22-28 43-42 66-42 19 0 34 10 48 30" fill="none" stroke="#f2b65c" stroke-width="9" stroke-linecap="round"/>
+  <circle cx="74" cy="137" r="10" fill="#f2b65c"/>
+  <circle cx="141" cy="95" r="11" fill="#72f0c8"/>
+  <circle cx="189" cy="125" r="9" fill="#47a7ff"/>
+  <path d="M82 158h88M82 178h58" stroke="#eef8ff" stroke-width="12" stroke-linecap="round"/>
+  <path d="M193 72l7 15 16 2-12 11 3 16-14-8-14 8 3-16-12-11 16-2 7-15z" fill="#eef8ff"/>
+</svg>

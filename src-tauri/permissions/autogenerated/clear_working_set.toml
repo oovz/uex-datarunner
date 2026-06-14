@@ -1,0 +1,11 @@
+# Automatically generated - DO NOT EDIT!
+
+[[permission]]
+identifier = "allow-clear-working-set"
+description = "Enables the clear_working_set command without any pre-configured scope."
+commands.allow = ["clear_working_set"]
+
+[[permission]]
+identifier = "deny-clear-working-set"
+description = "Denies the clear_working_set command without any pre-configured scope."
+commands.deny = ["clear_working_set"]

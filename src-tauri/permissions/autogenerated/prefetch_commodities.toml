@@ -1,0 +1,11 @@
+# Automatically generated - DO NOT EDIT!
+
+[[permission]]
+identifier = "allow-prefetch-commodities"
+description = "Enables the prefetch_commodities command without any pre-configured scope."
+commands.allow = ["prefetch_commodities"]
+
+[[permission]]
+identifier = "deny-prefetch-commodities"
+description = "Denies the prefetch_commodities command without any pre-configured scope."
+commands.deny = ["prefetch_commodities"]

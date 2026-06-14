@@ -1,0 +1,11 @@
+# Automatically generated - DO NOT EDIT!
+
+[[permission]]
+identifier = "allow-prefetch-data-parameters"
+description = "Enables the prefetch_data_parameters command without any pre-configured scope."
+commands.allow = ["prefetch_data_parameters"]
+
+[[permission]]
+identifier = "deny-prefetch-data-parameters"
+description = "Denies the prefetch_data_parameters command without any pre-configured scope."
+commands.deny = ["prefetch_data_parameters"]
