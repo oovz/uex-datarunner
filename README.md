@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="src-tauri/icons/256x256.png" width="96" alt="UEX Datarunner Logo">
+  <img src="app-icon.png" width="96" alt="UEX Datarunner Logo">
 
   # UEX Datarunner
   *Windows desktop client for submitting Star Citizen commodity data to UEX using local AI OCR*
