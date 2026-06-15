@@ -14,9 +14,9 @@
 
 UEX Datarunner is a Windows desktop application that automates the extraction and submission of Star Citizen commodity terminal pricing data to [uexcorp.space](https://uexcorp.space). 
 
-By utilizing local AI vision models (such as Qwen-3-VL via the local Foundry AI runtime), it processes screenshots directly on your machine to extract terminal inventory levels, buy/sell prices, and quantities without requiring external cloud OCR APIs.
+By utilizing local AI vision models (such as Qwen-3.5 via the local Foundry AI runtime), it processes screenshots directly on your machine to extract terminal inventory levels, buy/sell prices, and quantities without requiring external cloud OCR APIs.
 
-> This application currently supports the **commodity** only. Other Star Citizen data types are planned for future updates.
+> This application currently supports **commodity** only.
 
 ## Features
 
